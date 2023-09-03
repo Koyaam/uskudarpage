@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Press+Start+2P&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.header{
+    background-image: url('https://wallpapers-clan.com/wp-content/uploads/2023/02/sun-mountain-yellow-aesthetic-wallpaper.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    max-width: 100%;
+   
+}
+.logo-uni{
+margin-top: 20px;
+margin-left: 90px;
+padding-bottom: 90px;
+}
+.orange-text-white{
+    background: #ff5100;
+    color: white;
+    padding: 6px;
+    
+   
+
+}
+.light{
+   font-size: small;
+   line-height: 20px;
+    
+}
+.orange{
+color: #ff5100;
+}
+.text{
+    margin-left: 90px; 
+}
+.images{
+    margin-top: 20px;
+    max-width: 50%;
+    height: auto;
+    margin-left: 40px;
+    display: inline;
+}
+.no-line{
+    text-decoration: none;
+    color: black;
+    display: inline;
+    cursor:pointer;
+}
+.no-line:hover{
+   color: #7c70695d;
+}
+.section1{
+    display: flex;
+    margin-top: 20px;
+    
+   
+}
+.small{
+    display: flex;
+    padding: 10px;
+}
+.smallb{
+    display: block;
+}
+.section2{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.t2-img{
+    margin-left: 20px;
+}
+.text2{
+margin-top: 60px;
+margin-left: 90px;
+padding-bottom: 90px;
+}
+.section3{
+    display: flex;
+    margin-top: 20px;
+   
+    
+}
+.round{
+    border-radius: 30px;
+}
+.side{
+    border-left: 3px solid #ff5100;;
+}
+.text3{
+    padding: 40px;
+    
+    
+}
+.section4{
+    display:flex ;
+    margin-top: 20px;
+    
+    
+}
+.text4{
+    margin-top: 60px;
+   margin-left: 90px;
+  padding-bottom: 90px;
+    
+    }
+    .section5{
+        display: flex;
+        margin-top: 20px;
+        
+    }
+    .text5{
+        padding: 20px;
+
+        
+    }
+    .smalll{
+        display: inline;
+    }
+   .buton-text-center{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 40px;
+   }
+   .purple-text-white{
+    text-decoration: none;
+    background: #0d6efd;
+    color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40p;
+    cursor:pointer;
+   }
+   .purple-text-white:hover{
+    background: #6347eb;
+   }
+   .social-media-container{
+    background: #e9d5ca;
+    padding: 20px;
+    position: relative;
+
+   }
+   .list-group-item i{
+    padding: 40px;
+    margin-left: 30px;
+   }
+   .list-group-item i:hover{
+    color: #6347eb;
+   }
+   ul{
+    display: flex;
+    justify-content: space-around;
+    color: #ff5100;
+    list-style: none;
+   }
+   .img-logo{
+    position: absolute;
+    left: 650px;
+    margin-top: -30px;
+    border-radius: 50%;
+   
+
+   }
+   .copy{
+    margin-top: 100px;
+    text-align: center;
+
+   }
+   .Communication{
+    text-align: center;
+    margin-bottom: 60px;
+   }
+   .Communication i ,a{
+    color: #ff5100;
+   }
+   .last{
+    display: block;
+   }
+   @media (max-width:600px) {
+    
+    .logo-uni{
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-bottom: 50px;
+        }
+        .text{
+            margin-left: 20px;
+        }
+        .images{
+            margin-top: 40px;
+            max-width: 50%;
+            height: outo;
+            margin-left: 40px;
+            display:block;
+        }
+        .text1{
+            display: block;
+
+        }
+        
+        .section1{
+            display: block;
+        }
+        .text1{
+            margin-left: 20px;
+        }
+        
+        .small {
+            display: inline;
+        }
+        .smallb .ll{
+            display: inline;
+        }
+
+        .section2{
+            display: block;
+            
+        }
+        .text2{
+            margin-left: 20px;
+            
+        }
+        .section3{
+            display: block;
+            
+        }
+        .text3{
+            margin-left: 20px;
+            padding-left: 10px;
+        }
+        .section4{
+            display: block;
+        }
+        .text4{
+            margin-left: 20px;
+        }
+        .section5{
+            display: block;
+        }
+        ul{
+            margin-left:-30px;
+
+        }
+        .list-group-item i{
+            
+            margin-left: 0;
+            padding: 1px;
+            
+        }
+        .social-media-container{
+            position: relative;
+        }
+        
+        .img-logo{
+            position: absolute;
+            left:200px
+            
+        }
+        .orang{
+            color: #ff5100;
+        }
+        .last{
+            display: block;
+        }
+
+
+
+
+
+   }
